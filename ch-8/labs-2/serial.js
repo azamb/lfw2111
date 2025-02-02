@@ -29,9 +29,9 @@ const b = promisify(opB)
 const c = promisify(opC)
 
 async function main () {
-  print(await a())
-  print(await b())
-  print(await c())
+  print(null,await a())
+  print(null,await b())
+  print(null,await c())
 }
 
 main()
